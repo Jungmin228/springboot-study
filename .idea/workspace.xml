@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa1039f0-02c7-45be-b9ef-8af42ab9d41a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/part2/guestbook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/controller/GuestbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/controller/GuestbookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/service/GuestbookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/service/GuestbookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/modify.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2F9qa1abMK1Wn4CBNKmj0dRUfW2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "temurin-11",
+    "last_opened_file_path": "D:/GitRepository/springboot-study/part2/guestbook",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.guestbook">
+    <configuration name="guestbook" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.zerock.guestbook.GuestbookApplication" />
+      <module name="guestbook" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuestbookRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guestbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zerock.guestbook.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zerock.guestbook.repository" />
+      <option name="MAIN_CLASS_NAME" value="org.zerock.guestbook.repository.GuestbookRepositoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuestbookServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guestbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zerock.guestbook.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zerock.guestbook.service" />
+      <option name="MAIN_CLASS_NAME" value="org.zerock.guestbook.service.GuestbookServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.guestbook" />
+      <item itemvalue="JUnit.GuestbookRepositoryTests" />
+      <item itemvalue="JUnit.GuestbookServiceTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GuestbookRepositoryTests" />
+        <item itemvalue="JUnit.GuestbookServiceTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa1039f0-02c7-45be-b9ef-8af42ab9d41a" name="Changes" comment="" />
+      <created>1663914711428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663914711428</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

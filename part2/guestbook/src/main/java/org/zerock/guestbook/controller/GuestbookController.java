@@ -13,9 +13,9 @@ import org.zerock.guestbook.dto.GuestbookDTO;
 import org.zerock.guestbook.dto.PageRequestDTO;
 import org.zerock.guestbook.service.GuestbookService;
 
+@Log4j2
 @Controller
 @RequestMapping("/guestbook")
-@Log4j2
 @RequiredArgsConstructor
 public class GuestbookController {
 
@@ -51,11 +51,22 @@ public class GuestbookController {
 
     @GetMapping({"/read", "/modify"})
     public void read(long gno, @ModelAttribute("requestDTO") PageRequestDTO requestDTO, Model model) {
-        log.info("gno: " + gno);
+        log.info("gno: {}", gno);
 
         GuestbookDTO dto = service.read(gno);
 
         model.addAttribute("dto", dto);
+    }
+
+    @PostMapping("/remove")
+    public String remove(long gno, RedirectAttributes redirectAttributes) {
+        log.info("gno: {}", gno);
+
+        service.remove(gno);
+
+        redirectAttributes.addFlashAttribute("msg", gno);
+
+        return "redirect:/guestbook/list";
     }
 
 }

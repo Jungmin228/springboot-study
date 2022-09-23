@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
-    <th:block th:replace="~{/layout/basic::setContent(~{this::content})}">
+<th:block th:replace="~{/layout/basic::setContent(~{this::content})}">
 
-        <th:block th:fragment="content">
+    <th:block th:fragment="content">
 
-            <h1 class="mt-4">GuestBook Modify Page</h1>
+        <h1 class="mt-4">GuestBook Modify Page</h1>
 
-            <form action="/guestbook/modify" method="post">
+        <form action="/guestbook/modify" method="post">
 
             <div class="form-group">
                 <label>Gno</label>
@@ -41,22 +41,35 @@
                        th:value="${#temporals.format(dto.modDate, 'yyyy/MM/dd HH:mm:ss')}" readonly>
             </div>
 
-            </form>
+        </form>
 
-            <button type="button" class="btn btn-primary">Modify</button>
-            <button type="button" class="btn btn-info">List</button>
-            <button type="button" class="btn btn-danger">Remove</button>
+        <button type="button" class="btn btn-primary modifyBtn">Modify</button>
+        <button type="button" class="btn btn-info listBtn">List</button>
+        <button type="button" class="btn btn-danger removeBtn">Remove</button>
 
-            <!-- <a th:href="@{/guestbook/modify(gno=${dto.gno}, page=${requestDTO.page})}"> -->
-            <!--     <button type="button" class="btn btn-primary">Modify</button> -->
-            <!-- </a> -->
+        <!-- <a th:href="@{/guestbook/modify(gno=${dto.gno}, page=${requestDTO.page})}"> -->
+        <!--     <button type="button" class="btn btn-primary">Modify</button> -->
+        <!-- </a> -->
 
-            <!-- <a th:href="@{/guestbook/list(page=${requestDTO.page})}"> -->
-            <!--     <button type="button" class="btn btn-info">List</button> -->
-            <!-- </a> -->
+        <!-- <a th:href="@{/guestbook/list(page=${requestDTO.page})}"> -->
+        <!--     <button type="button" class="btn btn-info">List</button> -->
+        <!-- </a> -->
 
-        </th:block>
+        <script th:inline="javascript">
+            var actionForm = $("form");
+
+            $(".removeBtn").click(function() {
+                actionForm
+                .attr("action", "/guestbook/remove")
+                .attr("method", "post");
+
+                actionForm.submit();
+            });
+
+        </script>
 
     </th:block>
+
+</th:block>
 
 </html>
