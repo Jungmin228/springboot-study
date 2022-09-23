@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa1039f0-02c7-45be-b9ef-8af42ab9d41a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/part2/guestbook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/controller/GuestbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/controller/GuestbookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/dto/GuestbookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/dto/GuestbookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/dto/PageRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/dto/PageRequestDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/service/GuestbookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/service/GuestbookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/modify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/test/java/org/zerock/guestbook/service/GuestbookServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/test/java/org/zerock/guestbook/service/GuestbookServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
   <component name="RunManager" selected="Application.guestbook">
@@ -89,13 +91,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GuestbookServiceTests.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guestbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zerock.guestbook.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zerock.guestbook.service" />
+      <option name="MAIN_CLASS_NAME" value="org.zerock.guestbook.service.GuestbookServiceTests" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.guestbook" />
+      <item itemvalue="JUnit.GuestbookServiceTests.testSearch" />
       <item itemvalue="JUnit.GuestbookRepositoryTests" />
       <item itemvalue="JUnit.GuestbookServiceTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuestbookServiceTests.testSearch" />
         <item itemvalue="JUnit.GuestbookRepositoryTests" />
         <item itemvalue="JUnit.GuestbookServiceTests" />
       </list>
