@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1039f0-02c7-45be-b9ef-8af42ab9d41a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/ex1/ex1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/part1/ex1/ex1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/ex2/ex2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/part1/ex2/ex2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/ex3/ex3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/part1/ex3/ex3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/controller/GuestbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/java/org/zerock/guestbook/controller/GuestbookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/modify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/read.html" beforeDir="false" afterPath="$PROJECT_DIR$/part2/guestbook/src/main/resources/templates/guestbook/read.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +14,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1664270637" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/part2" />
+                    <option name="lastUsedInstant" value="1664270636" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,7 +77,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "0c3a96b15be6aedf163d16382192f6d2"
+    "spring.configuration.checksum": "f8c4ddeaf86c2effdd15fe62c3adda90"
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.GuestbookApplication">
@@ -174,7 +192,9 @@
       <option name="presentableId" value="Default" />
       <updated>1663914711428</updated>
       <workItem from="1663992602030" duration="335000" />
-      <workItem from="1664269522276" duration="901000" />
+      <workItem from="1664269522276" duration="1116000" />
+      <workItem from="1664338229026" duration="196000" />
+      <workItem from="1664338901698" duration="189000" />
     </task>
     <servers />
   </component>
