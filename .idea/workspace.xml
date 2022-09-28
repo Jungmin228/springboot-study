@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa1039f0-02c7-45be-b9ef-8af42ab9d41a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/springboot-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springboot-study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/board/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/board/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/board/board.iml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/board/board.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/board/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/board/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/board/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +82,10 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "f8c4ddeaf86c2effdd15fe62c3adda90"
+    "spring.configuration.checksum": "9baba4a35703ca0236ed65c65b43463f"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.GuestbookApplication">
+  <component name="RunManager" selected="Spring Boot.BoardApplication">
     <configuration name="guestbook" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,6 +141,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BoardApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="board" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.zerock.board.BoardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="springboot-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.zerock.board.BoardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ex1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.zerock.ex1.Ex1Application" />
@@ -170,10 +192,12 @@
       <item itemvalue="JUnit.GuestbookServiceTests.testSearch" />
       <item itemvalue="JUnit.GuestbookRepositoryTests" />
       <item itemvalue="JUnit.GuestbookServiceTests" />
+      <item itemvalue="Spring Boot.BoardApplication (1)" />
       <item itemvalue="Spring Boot.Ex1Application" />
       <item itemvalue="Spring Boot.Ex2Application" />
       <item itemvalue="Spring Boot.Ex3Application" />
       <item itemvalue="Spring Boot.GuestbookApplication" />
+      <item itemvalue="Spring Boot.BoardApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -195,6 +219,8 @@
       <workItem from="1664269522276" duration="1116000" />
       <workItem from="1664338229026" duration="196000" />
       <workItem from="1664338901698" duration="189000" />
+      <workItem from="1664339387465" duration="448000" />
+      <workItem from="1664339844110" duration="97000" />
     </task>
     <servers />
   </component>

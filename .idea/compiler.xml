@@ -10,10 +10,12 @@
         <module name="ex3" />
         <module name="guestbook" />
         <module name="ex2" />
+        <module name="board" />
         <module name="ex1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="board" target="11" />
       <module name="ex1" target="11" />
       <module name="ex2" target="11" />
       <module name="ex3" target="11" />
@@ -22,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="board" options="-parameters" />
       <module name="ex1" options="-parameters" />
       <module name="ex2" options="-parameters" />
       <module name="ex3" options="-parameters" />
