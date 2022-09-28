@@ -10,7 +10,6 @@
         <module name="ex3" />
         <module name="guestbook" />
         <module name="ex2" />
-        <module name="board" />
         <module name="ex1" />
       </profile>
     </annotationProcessing>
