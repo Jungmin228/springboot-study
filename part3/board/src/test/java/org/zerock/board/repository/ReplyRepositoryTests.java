@@ -25,10 +25,10 @@ public class ReplyRepositoryTests {
                                .build();
 
             Reply reply = Reply.builder()
-                    .text("Reply....." + i)
-                    .board(board)
-                    .replyer("guest")
-                    .build();
+                               .text("Reply....." + i)
+                               .board(board)
+                               .replyer("guest")
+                               .build();
 
             replyRepository.save(reply);
         });
