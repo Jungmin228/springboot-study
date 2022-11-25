@@ -14,6 +14,8 @@ public interface BoardService {
 
     BoardDto get(Long bno);
 
+    void removeWithReplies(Long bno);
+
     default Board dtoToEntity(BoardDto boardDto) {
         Member member = Member.builder()
                 .email(boardDto.getWriterEmail())

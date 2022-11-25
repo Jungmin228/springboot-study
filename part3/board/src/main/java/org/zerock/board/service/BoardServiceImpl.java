@@ -11,6 +11,7 @@ import org.zerock.board.dto.PageResultDto;
 import org.zerock.board.entity.Board;
 import org.zerock.board.entity.Member;
 import org.zerock.board.repository.BoardRepository;
+import org.zerock.board.repository.ReplyRepository;
 
 import java.util.function.Function;
 
@@ -20,6 +21,7 @@ import java.util.function.Function;
 public class BoardServiceImpl implements BoardService {
 
     private final BoardRepository boardRepository;
+    private final ReplyRepository replyRepository;
 
     @Override
     public Long register(BoardDto boardDto) {
@@ -53,4 +55,10 @@ public class BoardServiceImpl implements BoardService {
         return entityToDto((Board) arr[0], (Member) arr[1], (Long) arr[2]);
     }
 
+    @Override
+    public void removeWithReplies(Long bno) {
+        replyRepository.deleteByBno(bno);
+
+        boardRepository.deleteById(bno);
+    }
 }
